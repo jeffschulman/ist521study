@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="survey-container">
+        <h1>Feedback Survey</h1>
+        <p>We value your opinion!</p>
+        <form id="surveyForm">
+            <!-- Example Survey Question -->
+            <div class="question">
+                <p>How satisfied are you with our services?</p>
+                <select>
+                    <option value="very_satisfied">Very Satisfied</option>
+                    <option value="satisfied">Satisfied</option>
+                    <option value="neutral">Neutral</option>
+                    <option value="dissatisfied">Dissatisfied</option>
+                    <option value="very_dissatisfied">Very Dissatisfied</option>
+                </select>
+            </div>
+            <!-- Disguised Ad Question -->
+            <div class="question ad disguised-ad">
+                <p>Did you know you can save 30% on our premium products? Click <a href="#">here</a> to learn more!</p>
+            </div>
+            <!-- Confirmshaming Question -->
+            <div class="question">
+                <p>Don't you want to be well-informed? Sign up for our newsletter:</p>
+                <input type="email" placeholder="Enter your email">
+                <button type="button">Subscribe</button>
+            </div>
+            <!-- Additional Survey Questions -->
+        </form>
+        <button id="continueButton" style="display:none;">Continue</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

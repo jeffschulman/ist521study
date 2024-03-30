@@ -1,0 +1,29 @@
+.download-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    max-width: 600px;
+    margin: auto;
+}
+
+.offer, .hidden-costs, .additional-offers, .bait-and-switch {
+    margin-bottom: 20px;
+}
+
+.hidden-costs p, .additional-offers label {
+    font-size: 0.9em;
+}
+
+#continueButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
+
+/* Additional styles */

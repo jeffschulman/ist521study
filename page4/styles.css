@@ -1,0 +1,32 @@
+.survey-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    max-width: 600px;
+    margin: auto;
+}
+
+.question {
+    margin: 20px 0;
+}
+
+.disguised-ad {
+    background-color: #fffbea;
+    color: #333;
+    padding: 10px;
+    border: 1px dashed #e0a800;
+}
+
+#continueButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
+
+/* Additional styles for form elements */

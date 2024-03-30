@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Social Media Profile Setup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-setup">
+        <h1>Create Your Social Media Profile</h1>
+        <form id="profileForm">
+            <input type="text" id="fullname" name="fullname" placeholder="Full Name">
+            <input type="email" id="email" name="email" placeholder="Email">
+            <div class="checkbox-section">
+                <input type="checkbox" id="shareData" name="shareData" checked>
+                <label for="shareData">Yes, share my data with partner companies for a tailored experience.</label>
+            </div>
+            <div class="checkbox-section">
+                <input type="checkbox" id="friendInvites" name="friendInvites">
+                <label for="friendInvites">Send invites to all contacts (recommended).</label>
+            </div>
+            <button type="submit">Create Profile</button>
+        </form>
+        <button id="continueButton" style="display:none;">Continue</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

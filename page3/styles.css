@@ -1,0 +1,37 @@
+.profile-setup {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    max-width: 500px;
+    margin: auto;
+}
+
+.profile-setup input[type="text"],
+.profile-setup input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.checkbox-section {
+    text-align: left;
+    margin: 10px;
+}
+
+.checkbox-section label {
+    margin-left: 5px;
+}
+
+#continueButton {
+    background-color: #008CBA;
+    color: white;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
